@@ -1,7 +1,12 @@
 package Aula02;
 
 public class Triangulo {
-    double a;
-    double b;
-    double c;
+    float base;
+    float altura;
+
+
+    Triangulo(float b, float a){
+        this.base = b;
+        this.altura = a;
+    }
 }

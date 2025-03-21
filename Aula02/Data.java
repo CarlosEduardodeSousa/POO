@@ -1,3 +1,5 @@
+package Aula02;
+
 public class Data {
     int dia;
     int mes;
