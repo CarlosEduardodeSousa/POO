@@ -1,4 +1,4 @@
-package Aula02;
+package Aula03;
 
 public class Triangulo2 {
     int ladoA;
