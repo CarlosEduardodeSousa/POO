@@ -1,8 +1,8 @@
 package Exercíciosaula05;
 
 public class Triangulo {
-    double base;
-    double altura;
+    private double base;
+    private double altura;
 
     Triangulo(){
 
