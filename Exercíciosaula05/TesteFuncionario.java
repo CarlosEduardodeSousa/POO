@@ -4,10 +4,10 @@ public class TesteFuncionario {
     public static void main(String[] args) {
         Funcionario f1 = new Funcionario(9, 1500f, "recepcionista");
 
-        /*f1.imprimirDados();
+        f1.imprimirDados();
         f1.calcularAumento(10);
         System.out.println("");
-        f1.imprimirDados();*/
+        f1.imprimirDados();
 
         Funcionario f2 = new Funcionario();
 
