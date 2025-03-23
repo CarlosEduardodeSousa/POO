@@ -6,7 +6,7 @@ public class TesteVendedor {
         vendedor1.imprimirDados();
         vendedor1.calcularSalario();
 
-        System.out.println(""); 
+        System.out.println(); 
 
         
         Vendedor vendedor2 = new Vendedor(800, 1500, "Ana Costa", 1);
