@@ -22,7 +22,7 @@ public class Paciente {
         return nome;
     }
 
-    void setNome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
