@@ -19,7 +19,7 @@ public class Curso {
         this.mensalidade = m;
     }
 
-    void cadastraDados(){
+    public void cadastraDados(){
         Scanner leia = new Scanner(System.in);
 
         System.out.println("Digite o nome do curso: ");
@@ -37,7 +37,7 @@ public class Curso {
         leia.close();
     }
 
-    void imprimirDados(){
+    public void imprimirDados(){
         System.out.println("Dados do Curso: ");
         System.out.println("");
         System.out.println("Nome: " + nome);
