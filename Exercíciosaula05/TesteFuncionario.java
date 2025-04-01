@@ -9,6 +9,8 @@ public class TesteFuncionario {
         System.out.println("");
         f1.imprimirDados();
 
+
+        System.out.println("");
         Funcionario f2 = new Funcionario();
 
         f2.setCracha(8);

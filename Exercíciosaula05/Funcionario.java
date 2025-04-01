@@ -1,9 +1,9 @@
 package Exercíciosaula05;
 
 public class Funcionario {
-    int cracha;
-    float salario;
-    String cargo;
+    private int cracha;
+    private float salario;
+    private String cargo;
 
     Funcionario (int cracha, float salario, String cargo){
         this.cracha = cracha;
