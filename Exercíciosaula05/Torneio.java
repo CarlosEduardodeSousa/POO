@@ -9,29 +9,29 @@ public class Torneio {
         this.idade = idade;
     }
 
-    String getNome(){
+    public String getNome(){
         return nome;
     }
 
-    void setNome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
-    int getIdade(){
+    public int getIdade(){
         return idade;
     }
 
-    void setIdade(int idade){
+    public void setIdade(int idade){
         this.idade = idade;
     }
 
-    void imprimirDados(){
+    public void imprimirDados(){
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Categoria: " + verificarCategoria());
     }
 
-    String verificarCategoria(){
+    public String verificarCategoria(){
         
         if(idade >=5 && idade <=7){
             return "Infantil";
